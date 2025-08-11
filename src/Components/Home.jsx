@@ -19,6 +19,7 @@ const Home = () => {
         <GetInTouch />
       <LogoMarquee />
       <SocialSubscribe />
+      <p>Hellogit</p>
     </div>
     </>
   )
