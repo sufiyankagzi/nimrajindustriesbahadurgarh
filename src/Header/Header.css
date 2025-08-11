@@ -1,0 +1,99 @@
+.head-social-icon-facebook {
+  width: 27px;
+  height: 27px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: black;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  /* margin: 5px; */
+  padding: 5px;
+  cursor: pointer;
+}
+
+.head-social-icon-facebook:hover {
+  background-color: #1877F2;
+  color: white !important;
+}
+
+.head-social-icon-instagram {
+  width: 27px;
+  height: 27px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: black;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  /* margin: 5px; */
+  padding: 5px;
+  cursor: pointer;
+}
+
+.head-social-icon-instagram:hover {
+  background-color: #E1306C;
+  color: white !important;
+}
+
+.head-social-icon-youtube {
+width: 27px;
+  height: 27px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: black;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  /* margin: 5px; */
+  padding: 5px;
+  cursor: pointer;
+}
+
+.head-social-icon-youtube:hover {
+  background-color: #FF0000;
+  color: white !important;
+}
+
+.head-social-icon-whatsapp {
+ width: 27px;
+  height: 27px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: black;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  /* margin: 5px; */
+  padding: 5px;
+  cursor: pointer;
+}
+
+.head-social-icon-whatsapp:hover {
+  background-color: #25D366;
+  color: white !important;
+}
+
+.head-social-icon-twitter {
+ width: 27px;
+  height: 27px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: black;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  /* margin: 5px; */
+  padding: 5px;
+  cursor: pointer;
+}
+
+.head-social-icon-twitter:hover {
+  background-color: #1DA1F2;
+  color: white !important;
+}

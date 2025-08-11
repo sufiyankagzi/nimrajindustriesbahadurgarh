@@ -1,0 +1,14 @@
+.text-track {
+  display: inline-flex;
+  animation: scroll-left 18s linear infinite;
+  white-space: nowrap;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

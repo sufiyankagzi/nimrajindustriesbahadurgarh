@@ -1,0 +1,99 @@
+.social-icon-facebook {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: #1877F2;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.social-icon-facebook:hover {
+  background-color: #1877F2;
+  color: white !important;
+}
+
+.social-icon-instagram {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: #E1306C;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.social-icon-instagram:hover {
+  background-color: #E1306C;
+  color: white !important;
+}
+
+.social-icon-youtube {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: #FF0000;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.social-icon-youtube:hover {
+  background-color: #FF0000;
+  color: white !important;
+}
+
+.social-icon-whatsapp {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: #25D366;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.social-icon-whatsapp:hover {
+  background-color: #25D366;
+  color: white !important;
+}
+
+.social-icon-twitter {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Circular shape */
+  color: #1DA1F2;
+  font-size: 24px;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.social-icon-twitter:hover {
+  background-color: #1DA1F2;
+  color: white !important;
+}

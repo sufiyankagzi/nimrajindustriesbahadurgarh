@@ -1,0 +1,81 @@
+.footer-social
+{
+    color:white !important;
+    width: 40px;
+    height: 40px;
+    /* background-color: grey; */
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.footer-social:hover
+{
+    color:rgb(197, 197, 197) !important;
+    /* background-color: #ffcc00; */
+}
+
+.hover-links li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 5px;
+  transition: all 0.3s ease;
+  font-family: Roboto;
+  font-weight: 300;
+  color: white;
+  cursor: pointer;
+}
+
+/* Glow + shift on hover */
+.hover-links li:hover {
+  padding-left: 10px;
+  font-weight: 800;
+}
+
+/* Animate arrow icon */
+.hover-links li:hover svg {
+  animation: bounceRight 0.4s;
+  color: #3b2f25ff;
+}
+
+/* Style anchor tag inside li */
+.hover-links li a {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Underline on hover for Link only */
+.hover-links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #3b2f25ff;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+/* Glow & underline animate in */
+.hover-links li a:hover {
+  color: #3b2f25ff;
+  /* text-shadow: 0 0 5px #3b2f25ff; */
+}
+
+.hover-links li a:hover::after {
+  transform: scaleX(1);
+}
+
+/* Icon bounce animation */
+@keyframes bounceRight {
+  0%   { transform: translateX(0); }
+  30%  { transform: translateX(6px); }
+  60%  { transform: translateX(-2px); }
+  100% { transform: translateX(0); }
+}

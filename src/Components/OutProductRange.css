@@ -1,0 +1,88 @@
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.card-hover {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.circle-wrapper {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border: 1px solid #75CAD3;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.4s ease;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  transition: top 0.4s ease;
+}
+
+.overlay-content {
+  font-family: "Poppins", sans-serif;
+  color: #424142;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.overlay-btn {
+  background-color: #CF3079;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.overlay-btn:hover {
+  background-color: #a72561;
+}
+
+.circle-wrapper:hover .circle-image {
+  opacity: 0.3;
+}
+
+.circle-wrapper:hover .hover-overlay {
+  top: 0;
+}
+
+.card-title {
+  margin-top: 12px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #CF3079;
+  text-align: center;
+}
